@@ -1,6 +1,6 @@
-import options from './options';
-import { defer } from './util';
-import { renderComponent } from './vdom/component';
+import options from './options.js';
+import { defer } from './util.js';
+import { renderComponent } from './vdom/component.js';
 
 /** Managed queue of dirty components to be re-rendered */
 

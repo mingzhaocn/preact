@@ -1,10 +1,10 @@
-import { ATTR_KEY } from '../constants';
-import { isSameNodeType, isNamedNode } from './index';
-import { buildComponentFromVNode } from './component';
-import { createNode, setAccessor } from '../dom/index';
-import { unmountComponent } from './component';
-import options from '../options';
-import { removeNode } from '../dom/index';
+import { ATTR_KEY } from '../constants.js';
+import { isSameNodeType, isNamedNode } from './index.js';
+import { buildComponentFromVNode } from './component.js';
+import { createNode, setAccessor } from '../dom/index.js';
+import { unmountComponent } from './component.js';
+import options from '../options.js';
+import { removeNode } from '../dom/index.js';
 
 /** Queue of components that have been mounted and are awaiting componentDidMount */
 export const mounts = [];
